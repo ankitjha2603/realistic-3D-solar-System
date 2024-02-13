@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>three.js</title>
+    <title>Realistic 3D Solar System Simulation</title>
+    <meta name="author" content="ankitjha2603" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Welcome to the 'realistic-3d-solar-system' project! This project provides an interactive 3D simulation of the solar system with options for both realistic and less accurate representations. Users can explore and learn more about each celestial body in the solar system."
+    />
+    <meta
+      name="keywords"
+      content="three.js, solar system, 3D, space, planets, astronomy, stars, sun, mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto"
+    />
+
+    <meta property="og:title" content="Realistic 3D Solar System Simulation" />
+    <meta
+      property="og:description"
+      content="Welcome to the 'realistic-3d-solar-system' project! This project provides an interactive 3D simulation of the solar system with options for both realistic and less accurate representations. Users can explore and learn more about each celestial body in the solar system."
+    />
+    <meta
+      property="og:url"
+      content="https://ankitjha2603.github.io/realistic-3D-solar-System"
+    />
+    <meta property="og:type" content="website" />
+    <!-------------------------->
+    <!-- Sitemap -->
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="https://ankitjha2603.github.io/sitemap.xml"
+    />
+    <!-------------------------->
+
+    <!----------------------------------------------------------------------------->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4J64SC1QY7"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-4J64SC1QY7");
+    </script>
+    <!--Google verification--->
+    <meta
+      name="google-site-verification"
+      content="5QsjbXuM1buDwEtnxWDKN9dE1qgf_dgz646EdwUxSWg"
+    />
+    <!----------------------------------------------------------------------------->
+    <link rel="icon" type="image/png" href="./image/solar-system.png" />
+    <script type="text/javascript" src="./min.js/dat.gui.min.js"></script>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="change-scene">
+      <span>Realistic dimention</span>
+      <div class="change-scene-select selected"></div>
+    </div>
+    <div class="show-info-container" show="true">
+      <div class="hide-info">Hide info</div>
+      <div class="show-info">Show info</div>
+
+      <div class="info-value description"></div>
+      <div class="mul-info-key-value">
+        <div class="key-value-pair">
+          <div class="info-key">Radius</div>
+          :
+          <div class="info-value radius"></div>
+        </div>
+        <div class="key-value-pair">
+          <div class="info-key">Distance from sun</div>
+          :
+          <div class="info-value distanceFromSun"></div>
+        </div>
+        <div class="key-value-pair">
+          <div class="info-key">Mass</div>
+          :
+          <div class="info-value mass"></div>
+        </div>
+        <div class="key-value-pair">
+          <div class="info-key">Day length</div>
+          :
+          <div class="info-value dayLength"></div>
+        </div>
+        <div class="key-value-pair">
+          <div class="info-key">Year length</div>
+          :
+          <div class="info-value yearLength"></div>
+        </div>
+        <div class="key-value-pair">
+          <div class="info-key">Temperature</div>
+          :
+          <div class="info-value temperatureRange"></div>
+        </div>
+        <div class="key-value-pair">
+          <div class="info-key">No. of missions</div>
+          :
+          <div class="info-value missions"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>

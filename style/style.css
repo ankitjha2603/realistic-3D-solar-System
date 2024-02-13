@@ -1,0 +1,118 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+}
+
+.change-scene {
+    position: fixed;
+    padding: 4px 20px;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    z-index: 5;
+    background-color: black;
+}
+
+.change-scene-select {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    margin: 0px 5px 0px 10px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.change-scene-select.selected {
+    background-color: rgb(49.409485%, 85.099792%, 34.118652%);
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.show-info-container {
+    display: flex;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0px;
+    flex-direction: column;
+    height: fit-content;
+    width: 400px;
+    color: white;
+    transition: height 1s;
+}
+
+.show-info-container[show=false] {
+    height: 20px !important;
+}
+
+@media only screen and (max-width: 700px) {
+    .show-info-container {
+        display: none !important;
+    }
+}
+
+.mul-info-key-value {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.key-value-pair {
+    display: flex;
+}
+
+.info-key {
+    font-weight: bold;
+    margin: 1px 10px 1px 10px;
+    width: 130px;
+}
+
+.info-value {
+    margin-left: 10px;
+}
+
+
+.info-value.description,
+.mul-info-key-value {
+    padding: 0px 20px 0px 10px;
+}
+
+.info-value.description {
+    margin-top: 10px;
+}
+
+.show-info-container>.hide-info,
+.show-info-container>.show-info {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: cursive;
+    cursor: pointer;
+    opacity: 0;
+    font-size: 0px;
+    transition: font-size 0.33s, opacity 0.33s;
+}
+
+.show-info-container:hover>.hide-info {
+    background-color: red;
+    opacity: 1;
+    font-size: 2em;
+}
+
+.show-info-container>.show-info {
+    background-color: rgb(34 109 2);
+    font-size: 1em;
+    opacity: 1;
+}
+
+.show-info-container[show=false]>.hide-info,
+.show-info-container[show=true]>.show-info {
+    display: none;
+}
