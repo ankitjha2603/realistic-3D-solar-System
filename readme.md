@@ -1,8 +1,6 @@
 # Realistic 3D Solar System Simulation
 
-Welcome to the "realistic-3d-solar-system" project! This project provides an interactive 3D simulation of the solar system with options for both realistic and less accurate representations. Users can explore and learn more about each celestial body in the solar system.
-
-This is the 2nd version of my old project 'solar-system3D,' which was very inaccurate. This is an updated version with many new features and functions.
+Welcome to the 'realistic-3d-solar-system' project! This project provides an interactive 3D simulation of the solar system with options for both realistic and less accurate representations. Users can explore and learn more about each celestial body in the solar system. This is the 2nd version of my old project 'solar-system3D,' which was very inaccurate. This is an updated version with many new features and functions.
 
 Explore Realistic 3D Solar System Simulation [here](https://your-username.github.io/realistic-3d-solar-system).
 
