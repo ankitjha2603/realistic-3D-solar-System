@@ -4,7 +4,7 @@ Welcome to the 'realistic-3d-solar-system' project! This project provides an int
 
 Explore Realistic 3D Solar System Simulation [here](https://your-username.github.io/realistic-3d-solar-system).
 
-![Alt Text](image/recording.gif)
+![Alt Text](image/realistic-3D-solar-System.gif)
 
 ## Features
 
